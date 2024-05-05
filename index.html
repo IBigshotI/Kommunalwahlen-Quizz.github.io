@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="algemeinerHeader">
+        <h1>Kommunalwahlen - Lernquizz</h1>
+        <p>muss noch ändern</p>
+        <a href="https://www.youtube.com/watch?v=zaL5ttLIZa4">Hier gehts zum Lernvideo</a>
+        <a href="/data usage/data usage.html">Personal statment for usage and handling of your data</a>
+    </div>
+    <div id="quizzheader">
+        <h1>Kommunalwahlen - Lernquizz</h1>
+        <p class="biggerText">Mal sehen an wie viel du dich noch erinnern kannst!</p>
+    </div>
+    <div id="start">
+        <h3>Bist du bereit?</h3>
+        <button id="startB">Ja</button>
+        <button id="decline">Nein</button>
+    </div>
+    <div id="Q1C" class="QC" style="display: none;">
+        <h3>1. Wie lange ist Legislaturperiode bei Kommunalwahlen?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="answer1" id="a1">
+            <label for="a1">5 Jahre</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="answer2" id="a2">
+            <label for="a2">6 Jahre</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="answer3" id="a3">
+            <label for="a3">4 Jahre</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="answer4" id="a4">
+            <label for="a4">3 Jahre</label>
+        </div>
+        <button class="submit">submit</button>
+    </div>
+
+    <div id="Q2C" class="QC" style="display: none;">
+        <h3>2. Was sind die Voraussetzungen damit man an Kommunalwahlen teilnehmen darf (in Bayern)?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q2a1">
+            <label for="Q2a1">mindestens 18 Jahre und 2 Monate in der jeweiligen Kommunen Wohnend</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q2a2">
+            <label for="Q2a2">mindestens 18 Jahre und 3 Monate in der jeweiligen Kommunen Wohnend</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q2a3">
+            <label for="Q2a3">mindestens 21 Jahre und 1 Monate in der jeweiligen Kommunen Wohnend</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q2a4">
+            <label for="Q2a4">mindestens 16 Jahre und 2 Monate in der jeweiligen Kommunen Wohnend</label>
+        </div>
+        <button class="submit" id="submit2">submit</button>
+    </div>
+
+    <div id="Q3C" class="QC" style="display: none;">
+        <h3>3. Für welche Ämter finden Kommunalwahlen statt?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q3a1">
+            <label for="Q3a1">falsch</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q3a2">
+            <label for="Q3a2">Landtag</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q3a3">
+            <label for="Q3a3">Gemeinderäte, Bürgermeister, Kreistag und Landräte</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q3a4">
+            <label for="Q3a4">Bundeskanzler, Bundespräsidenten</label>
+        </div>
+        <button class="submit" id="submit3">submit</button>
+    </div>
+    <div id="Q4C" class="QC" style="display: none;">
+        <h3>4. Wie viele Stimmen hat man bei der Wahl der Geminderräte?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q4a1">
+            <label for="Q4a1">halb so viele Stimme wie Sitze zu vergeben sind</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q4a2">
+            <label for="Q4a2">5</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q4a3">
+            <label for="Q4a3">3</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q4a4">
+            <label for="Q4a4">So viele wie Sitze zu vergeben sind</label>
+        </div>
+        <button class="submit" id="submit4">submit</button>
+    </div>
+    <div id="Q5C" class="QC" style="display: none;">
+        <h3>5. Wie viele Stimmen kann man einem Kandidaten bei der Gemeinderatswahl geben?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q5a1">
+            <label for="Q5a1"> nur eine Stimme</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q5a2">
+            <label for="Q5a2">Bis zu drei Stimmen</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q5a3">
+            <label for="Q5a3">5 Stimmen</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q5a4">
+            <label for="Q5a4">4 Stimmen</label>
+        </div>
+        <button class="submit" id="submit5">submit</button>
+    </div>
+    <div id="Q6C" class="QC" style="display: none;">
+        <h3>6. Welche Möglichkeiten zu Wählen gibt es wirklich?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q6a1">
+            <label for="Q6a1">Telephonwahl</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q6a2">
+            <label for="Q6a2">Briefwahl</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q6a3">
+            <label for="Q6a3">Digitalwahl</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q6a4">
+            <label for="Q6a4">In einem Wahllokal</label>
+        </div>
+        <button class="submit" id="submit6">submit</button>
+    </div>
+    <div id="Q7C" class="QC" style="display: none;">
+        <h3>7. Was versteht man unter dem Begriff "panaschieren"</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q7a1">
+            <label for="Q7a1">Man muss Kandidaten aus verschiedenen Listen wählen</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q7a2">
+            <label for="Q7a2">Nur verschidene Listen als ganze können gewahlt werden</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q7a3">
+            <label for="Q7a3">Wähler können die Stimmen auf einzelne Kandidaten unterschiedlicher Wahllisten verteilen</label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q7a4">
+            <label for="Q7a4">Man kann unterschiedliche Kandidaten niemals wählen</label>
+        </div>
+        <button class="submit" id="submit7">submit</button>
+    </div>
+    <div id="Q8C" class="QC" style="display: none;">
+        <h3>8. Was ist das Subsidiaritätsprinzip?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q8a1">
+            <label for="Q8a1">
+               Aufgaben sollen immer zuerst von der höchsten ebene gelöst werden
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q8a2">
+            <label for="Q8a2">
+                Aufgaben sollen immer zuerst von den Ländern gelöst werden
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q8a3">
+            <label for="Q8a3">
+                Aufgaben sollen immer zuerst von der untersten ebene gelöst werden
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q8a4">
+            <label for="Q8a4">
+                falsch
+            </label>
+        </div>
+        <button class="submit" id="submit8">submit</button>
+    </div>
+    <div id="Q9C" class="QC" style="display: none;">
+        <h3>9. Was fördert das Subsidiaritätsprinzip?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q9a1">
+            <label for="Q9a1">
+                Heteronomie und Zwangsverwaltung von Kommunen
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q9a2">
+            <label for="Q9a2">
+                Autonomie und Selbstverwaltung von Kommunen
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q9a3">
+            <label for="Q9a3">
+                effizientere Verwaltung durch Zusammenlegung von Kommunen in einem zentralen Amt
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q9a4">
+            <label for="Q9a4">
+                Man kann Subsidiaritätsprinzip nicht fördern
+            </label>
+        </div>
+        <button class="submit" id="submit9">submit</button>
+    </div>
+    <div id="Q10C" class="QC" style="display: none;">
+        <h3>10. Worum handelt es sich bei der Durchführung von Wahlen?</h3>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a1" id="Q10a1">
+            <label for="Q10a1">
+                Freiwillige Aufgabe
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a2" id="Q10a2">
+            <label for="Q10a2">
+                Pflichtaufgabe außerhalb des eigenen Wirkungskreis
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a3" id="Q10a3">
+            <label for="Q10a3">
+                Pflichtaufgabe im eigenen Wirkungskreis
+            </label>
+        </div>
+        <div class="checkbox-label">
+            <input type="checkbox" name="a4" id="Q10a4">
+            <label for="Q10a4">
+                Pflichtaufgabe zur Erfüllung nach Weisung
+            </label>
+        </div>
+        <button class="submit" id="submit10">submit</button>
+    </div>
+    <div id="ProgressContainer">
+        <h3>Progress:</h3>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+    <div id="clockContainer">
+        <h3 id="clock">Zeit:</h3>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
