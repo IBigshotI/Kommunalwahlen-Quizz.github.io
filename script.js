@@ -452,6 +452,7 @@ function checkAnswers10() {
       const currentQuestion = document.getElementById('Q10C');
       currentQuestion.style.display = 'none';
       clearInterval(timeInterval);
+      alert(`Herzlichen Glückwunsch du hast eine Punktzahl von ${score} erreicht!`)
     }, 2000);
   }, 0);
 }
